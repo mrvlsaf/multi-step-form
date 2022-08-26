@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: "Poppins";
+    font-family: "Inter";
 }
 
 .outer-container {
@@ -38,5 +38,5 @@
     border-radius: 5px;
     border: transparent;
     background-color: #5a4ad1;
-    color: white;
+    color: #f4f6f9;
 }

@@ -8,7 +8,6 @@ function Comp4() {
       head2={"You have completed onboarding, you can start using the Eden!"}
       lab1={"Workspace Name"}
       lab2={"Workspace URL (optional)"}
-      button={"Launch Eden"}
     />
   )
 }

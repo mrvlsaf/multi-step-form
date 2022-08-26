@@ -6,7 +6,7 @@ import Comp3 from './components/Comp3'
 import Comp4 from './components/Comp4'
 import { useState } from 'react';
 import logo from './data/logo.png'
-import "@fontsource/poppins";
+import "@fontsource/inter";
 
 function App() {
 
@@ -40,10 +40,8 @@ function App() {
         {currentStep === 2 && <Comp2 />}
         {currentStep === 3 && <Comp3 />}
         {currentStep === 4 && <Comp4 />}
-        {/* <button onClick={handleClickPrevious}>Previous</button>
-        <button onClick={handleClickNext}>Next</button> */}
         <div className='button'>
-          <button onClick={handleClickNext}>Create Workspace</button>
+          <button onClick={handleClickNext}>{currentStep === 4 ? 'Launch Eden' : 'Create Workspace'}</button>
         </div>
       </div>
     </div>

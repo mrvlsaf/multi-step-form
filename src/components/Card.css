@@ -1,0 +1,20 @@
+.card-inner-container {
+    border: 3px solid #f4f6f9;
+    border-radius: 10px;
+    width: 45%;
+    padding: 1em 2em 1.5em 2em;
+}
+
+.activeCard {
+    border: 2px solid #5a4ad1;
+}
+
+.type {
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.brief {
+    color: #9ba0ab;
+    font-weight: 600;
+}

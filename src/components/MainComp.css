@@ -5,6 +5,12 @@
     width: 100%;
 }
 
+.check-cont img {
+    margin-top: 5em;
+    width: 80px;
+    height: 80px;
+}
+
 .big-head {
     font-size: 2em;
     margin: 1.2em 0 0.2em 0;
@@ -26,19 +32,32 @@
     margin-bottom: 2em;
 }
 
-.form-container label{
-    font-weight: 500;
+.form-container label {
+    font-weight: 600;
+    color: #727780;
 }
 
-.form-container input{
+.form-container label span {
+    color: #9ba0ab;
+}
+
+.form-container input {
     height: 3em;
     font-size: 1em;
     padding: 0 0.5em;
+    font-weight: 500;
     margin: 0.5em 0 1em 0;
     border-radius: 5px;
     border: 3px solid #f4f6f9;
 }
 
-.form-container input::placeholder{
+.form-container input::placeholder {
     color: #bdc5d6;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-bottom: 2em;
 }
