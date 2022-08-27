@@ -20,16 +20,30 @@
     margin-bottom: 2em;
 }
 
-.stepper{
+.stepper {
     padding: 3em 7em !important;
 }
 
-#RFS-StepButton.completed{
+#RFS-StepButton {
+    background-color: white !important;
+    border: 3px solid #f4f6f9;
+}
+
+#RFS-StepButton span {
+    color: black !important;
+}
+
+#RFS-StepButton.completed {
     background-color: #5a4ad1 !important;
 }
 
-#RFS-StepButton.active{
-    background-color: rgb(224, 224, 224) !important;
+#RFS-StepButton.completed span {
+    color: white !important;
+}
+
+#RFS-StepButton.active {
+    background-color: white !important;
+    color: black !important;
 }
 
 .logo {
@@ -57,18 +71,18 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 450px){
-    .inner-container{
+@media only screen and (max-width: 450px) {
+    .inner-container {
         width: 70%;
     }
 }
 
-@media only screen and (max-width: 930px){
-    #RFS-StepperContainer{
+@media only screen and (max-width: 930px) {
+    #RFS-StepperContainer {
         padding: 0 !important;
     }
 
-    .button button{
+    .button button {
         width: 100%;
         font-size: 0.7em;
     }
