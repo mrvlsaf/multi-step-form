@@ -6,22 +6,22 @@
 }
 
 .check-cont img {
-    margin-top: 5em;
+    margin: 2em 0 1em 0;
     width: 80px;
     height: 80px;
 }
 
 .big-head {
-    font-size: 2.3em;
-    margin: 1.2em 0 0.2em 0;
+    font-size: 2.1em;
     font-weight: 600;
     text-align: center;
 }
 
 .small-head {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 600;
     color: #9ba0ab;
+    margin-top: 0.5em;
     margin-bottom: 2.5em;
     text-align: center;
 }
