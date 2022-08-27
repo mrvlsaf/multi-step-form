@@ -35,6 +35,7 @@ function App() {
         <Stepper
           steps={[{ label: '' }, { label: '' }, { label: '' }, { label: '' }]}
           activeStep={currentStep}
+          className="stepper"
         />
         {currentStep === 1 && <Comp1 />}
         {currentStep === 2 && <Comp2 />}

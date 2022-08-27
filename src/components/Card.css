@@ -18,3 +18,22 @@
     color: #9ba0ab;
     font-weight: 600;
 }
+
+@media only screen and (max-width: 450px){
+    .card-inner-container{
+        font-size: 0.5em !important;
+    }
+}
+
+@media only screen and (max-width: 930px){
+    .card-inner-container{
+        padding: 0 0.8em 0.8em 0.8em;
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width: 1145px){
+    .card-inner-container{
+        padding: 0 0.8em 0.8em 0.8em;
+    }
+}

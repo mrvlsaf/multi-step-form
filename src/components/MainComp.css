@@ -12,9 +12,10 @@
 }
 
 .big-head {
-    font-size: 2em;
+    font-size: 2.3em;
     margin: 1.2em 0 0.2em 0;
     font-weight: 600;
+    text-align: center;
 }
 
 .small-head {
@@ -22,12 +23,13 @@
     font-weight: 600;
     color: #9ba0ab;
     margin-bottom: 2.5em;
+    text-align: center;
 }
 
 .form-container {
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 70%;
     font-size: 1em;
     margin-bottom: 2em;
 }
@@ -58,6 +60,47 @@
 .card-container {
     display: flex;
     justify-content: space-between;
-    width: 85%;
+    width: 70%;
     margin-bottom: 2em;
+}
+
+#RFS-StepButton {
+    cursor: default;
+}
+
+@media only screen and (max-width: 450px) {
+    .big-head {
+        font-size: 1.1em !important;
+    }
+
+    .small-head {
+        font-size: 0.5em !important;
+    }
+
+    #RFS-StepButton {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    #RFS-StepButton span {
+        font-size: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .big-head {
+        font-size: 1.5em;
+    }
+
+    .small-head,
+    .form-container input,
+    .form-container label {
+        font-size: 0.7em;
+    }
+
+    .form-container,
+    .card-container {
+        width: 100%;
+    }
+
 }
